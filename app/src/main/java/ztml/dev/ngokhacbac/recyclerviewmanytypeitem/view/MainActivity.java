@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity implements MainView {
                 bookInfors.remove(position);
                 bookInfors.remove(position);
                 mBookAdaper.notifyItemRangeRemoved(position,2);
-                Toast.makeText(getApplicationContext(),"Buy is success",Toast.LENGTH_SHORT);
             }
         });
     }
